@@ -1,0 +1,28 @@
+:root {
+  --first-color: #9c8866;
+  --second-color: #c5baa7;
+  --third-color: #d9dacc;
+  --fourth-color: #e7e5d9;
+  --fifth-color: #f7f4f0;
+}
+body {
+  background: var(--fifth-color);
+  margin: 100px auto;
+  padding: 0 30px;
+}
+nav {
+  background: var(--second-color);
+  color: var(--first-color);
+}
+h1 {
+  color: var(--first-color);
+  text-align: center;
+}
+p,
+ul {
+  margin: 20px 0;
+}
+ul {
+  list-style: none;
+  text-align: center;
+}
