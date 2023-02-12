@@ -22,7 +22,15 @@ p,
 ul {
   margin: 20px 0;
 }
-ul {
+a {
+  color: var(--second-color);
+}
+a:hover {
+  color: var(--third-color);
+  font-weight: bolder;
+  text-decoration: none;
+}
+.contact-list {
   list-style: none;
   text-align: center;
 }
